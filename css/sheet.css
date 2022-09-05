@@ -1,0 +1,213 @@
+/* utilities  */
+
+/* background black */
+.bg-black{
+    background-color: black;
+}
+.bg-blue{
+    background-color: #0062d3;
+ }
+
+.w-85{
+    width: 85%;
+}
+
+.w-90{
+    width: 90%;
+}
+.w-10{
+    width: 10%;
+}
+
+
+/* ------------------------------------------------------------------------------------------------- */
+
+
+
+/* home section */
+.home{
+
+    height: 50vh;
+    background-image: url(../images/intro-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.home h2{
+    font-size: 50px;
+}
+
+
+.home_text{
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+
+/* about section */
+#about img{
+    width: 150px;
+    border-radius: 5%;
+}
+
+.progress{
+    height: 10PX;
+    border-radius: 0;
+}
+
+.about-text p {
+    font-size: 17px;
+}
+
+/* services section */
+#services hr{
+    background-color: blue;
+    width: 50px;
+    height: 5px;
+    position: relative;
+    left: 48.5%;
+}
+
+.mini-services i{
+
+    font-size: 50px;
+    padding: 30px;
+    border: #569ff3 10px solid;
+    border-radius: 40%;
+}
+
+.mini-services:hover i {
+    background-color: #0078ff ;
+    color: white;
+    transition: 0.5s;
+}
+
+/* detail section */
+.detail{
+    background-image: url(../images/counters-bg.jpg);
+    height: 70vh;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+
+
+.detail-cover{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(47, 76, 240, 0.3);
+}
+
+
+/* Portfolio section */
+
+#Portfolio hr{
+    background-color: blue;
+    width: 50px;
+    height: 5px;
+    position: relative;
+    left: 48.5%;
+}
+
+.mini-Portfolio img{
+    transition: 1s;
+
+}
+
+
+.mini-Portfolio:hover img{
+    transform: scale(1.3);
+    transition:   1s  ;
+
+}
+
+
+    /* slider section */
+ .slider{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center ;
+    background-attachment: fixed;
+    
+ }
+
+ .bg-slider{
+    background-color: rgba(0, 68, 255, 0.479);
+ }
+
+ .carousel-indicators [data-bs-target]{
+
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: relative;
+    top: 60px;
+    
+ }
+
+
+    /* blog section */
+
+
+.hr1 hr{
+    background-color: blue;
+    width: 50px;
+    height: 5px;
+    position: relative;
+    left: 48.5%;
+}
+
+ #blog h6{
+    background-color: rgb(0, 0, 167);
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    border-radius: 8%;
+    color:white;
+    padding-top: 4px;
+    
+ }
+
+ .blog a:hover {
+    color: blue !important;
+    transition: 0.5s;
+ }
+
+
+ .contact {
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center ;
+    
+    
+    
+ }
+
+ .icons i:hover  {
+    background-color: #569ff3;
+
+    
+ }
+
+ 
+ .mt-10{
+    
+    margin-top: 10%;
+    
+ }
+
+
+
+
+ 
+
+
+
